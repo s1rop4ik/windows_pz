@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Windows: Инженерная Эволюция</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Системные элементы девелоперского интерфейса -->
+  <div id="prog"></div>
+  <div class="glitch-overlay"></div>
+
+  <!-- СЛАЙД 1: Главный экран / Терминал ввода -->
+  <section class="slide on">
+    <div class="win-grid" style="height: 100%;">
+      <div class="stag">
+        <span class="code-tag">SYS_STATUS: READY // CORE_v12.0</span>
+        <h1 class="giant-title">WINDOWS:<br><span>ПЕРЕБОРКА</span><br>МАТРИЦЫ</h1>
+        <p class="desc-text" style="margin-top: 16px;">Инженерный анализ самой массовой операционной системы планеты. От графической надстройки над MS-DOS 1985 года до распределенных облачных ядер архитектуры 2026 года.</p>
+      </div>
+      <div class="panel stag" style="font-family: 'Fira Code', monospace; font-size: 0.85rem; color: var(--sys-green); line-height: 1.5;">
+        <p>&gt; BOOT_SEQUENCE: INITIALIZED</p>
+        <p>&gt; LOADING WINDOWS_HISTORY_MODULE...</p>
+        <p>&gt; DETECTING SUBSYSTEMS: MS-DOS [OK]</p>
+        <p>&gt; DETECTING KERNELS: WIN32 [OK]</p>
+        <p>&gt; DETECTING ARCHITECTURE: NT_64 [OK]</p>
+        <p style="margin-top: 20px; color: var(--win-blue);">&gt; НАЖМИТЕ ПРОБЕЛ ИЛИ КНОПКИ ДЛЯ НАВИГАЦИИ</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- СЛАЙД 2: Кто, зачем и когда? (Истоки) -->
+  <section class="slide">
+    <div class="win-grid">
+      <div class="stag">
+        <span class="code-tag">1985 // КОРНИ</span>
+        <h2>Зарождение Платформы</h2>
+        <p class="desc-text" style="margin-top: 12px;">В начале 1980-х годов <b>Билл Гейтс</b> и <b>Пол Аллен</b> осознали, что текстовый интерфейс MS-DOS ограничивает распространение ПК. Windows создавалась как коммерческий ответ на графические успехи Apple и Xerox, с целью монополизировать рынок совместимых персональных компьютеров (IBM PC).</p>
+      </div>
+      <div class="metro-tiles stag">
+        <div class="tile">
+          <h3>Стандартизация</h3>
+          <p>Создать единый слой драйверов, чтобы разработчикам софта не приходилось писать код под каждую видеокарту.</p>
+        </div>
+        <div class="tile blue-focus">
+          <h3>Доступность</h3>
+          <p>Снизить порог входа для бизнеса. Превратить сложный ПК в понятный офисный инструмент.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- СЛАЙД 3: Эра 16-бит (Графические оболочки) -->
+  <section class="slide">
+    <div class="stag">
+      <span class="code-tag">1985 — 1992 // MS-DOS SUBSYSTEM</span>
+      <h2>16-битные оболочки: Становление</h2>
+      <p class="desc-text" style="margin-bottom: 24px;">Первые версии не были полноценными операционными системами. Это были графические диспетчеры программ, работающие «поверх» DOS.</p>
+      <div class="stack-list">
+        <div class="stack-item">
+          <div class="num">01 // Windows 1.0 (1985)</div>
+          <div>Окна не перекрывали друг друга, а располагались плиткой. В комплекте шли калькулятор, блокнот и игра Reversi. Пользователи встретили её прохладно.</div>
+        </div>
+        <div class="stack-item">
+          <div class="num">02 // Windows 2.0 (1987)</div>
+          <div>Появились перекрывающиеся окна, горячие клавиши, поддержка защищенного режима процессоров Intel 286/386 и первые версии Word и Excel.</div>
+        </div>
+        <div class="stack-item">
+          <div class="num">03 // Windows 3.0 / 3.1 (1990-1992)</div>
+          <div>Первый триумф. Обновленный Диспетчер программ, поддержка 256 цветов, появление шрифтов TrueType, игры «Сапер» и легендарной аудио-карты Sound Blaster. Продано более 10 млн копий.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- СЛАЙД 4: Windows 95 (Эпоха Прорыва) -->
+  <section class="slide">
+    <div class="win-grid">
+      <div class="stag">
+        <span class="code-tag">1995 // REVOLUTION</span>
+        <h2>Windows 95: Новый Стандарт</h2>
+        <p class="desc-text">Гибридная 16/32-битная система, которая взорвала рынок и сформировала интерфейс ПК на десятилетия вперед. Именно здесь родилась кнопка <b>«Пуск»</b>, Панель задач, Рабочий стол и Корзина в том виде, какими мы знаем их сейчас.</p>
+      </div>
+      <div class="panel stag">
+        <h3 style="color: var(--win-blue); margin-bottom: 12px; font-family: 'Fira Code', monospace;">KEY_FEATURES // WIN95</h3>
+        <p style="margin-bottom: 8px;"><b>• Plug and Play:</b> Автоматическая настройка оборудования и поиск драйверов без ручного ввода прерываний IRQ.</p>
+        <p style="margin-bottom: 8px;"><b>• Длинные имена файлов:</b> Отказ от жесткого ограничения DOS «8.3» (до 255 символов в названии).</p>
+        <p><b>• Интеграция IE:</b> В версиях 95 OSR2 браузер Internet Explorer стал частью проводника, запустив первую «войну браузеров».</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- СЛАЙД 5: Ветвь NT (Архитектурный Монолит) -->
+  <section class="slide">
+    <div class="stag">
+      <span class="tag" style="color: var(--sys-red); background: rgba(255,69,58,0.1); border: 1px solid rgba(255,69,58,0.2); padding: 4px 8px; font-family: 'Fira Code', monospace; font-size: 0.85rem;">KERNEL_SHIFT // ARCHITECTURE</span>
+      <h2 style="margin-top: 14px;">Линия Windows NT: Спасение Платформы</h2>
+      <p class="desc-text" style="margin-bottom: 20px;">Пока потребительские Windows 95/98/Me постоянно страдали от нестабильности и падали в синий экран смерти (BSOD), параллельно развивалось профессиональное ядро **New Technology (NT)**, написанное с нуля под руководством легендарного Дэвида Катлера.</p>
+      <table class="dev-table">
+        <thead>
+          <tr>
+            <th>Версия системы</th>
+            <th>Год</th>
+            <th>Главное технологическое изменение</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Windows NT 3.1</td>
+            <td>1993</td>
+            <td>Полная 32-битная архитектура, строгая защита памяти, файловая система NTFS.</td>
+          </tr>
+          <tr>
+            <td>Windows NT 4.0</td>
+            <td>1996</td>
+            <td>Графический интерфейс от Windows 95 перенесен на сверхстабильное серверное ядро NT.</td>
+          </tr>
+          <tr>
+            <td>Windows 2000 (NT 5.0)</td>
+            <td>2000</td>
+            <td>Внедрение службы каталогов Active Directory, поддержка шины USB и Plug and Play на корпоративном уровне.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+    <!-- СЛАЙД 6: Windows XP и Слияние ядер -->
+  <section class="slide">
+    <div class="win-grid">
+      <div class="stag">
+        <span class="code-tag">2001 // UNIFICATION</span>
+        <h2>Windows XP: Великое Объединение</h2>
+        <p class="desc-text">Историческая веха: Microsoft окончательно закрывает старую нестабильную ветку Windows 9x/Me. Потребительская система впервые переносится на сверхнадёжное и защищённое корпоративное ядро <b>Windows NT 5.1</b>. Архитектура обрела коммерческое бессмертие.</p>
+      </div>
+      <div class="panel stag">
+        <h3 style="color: var(--win-blue); margin-bottom: 12px; font-family: 'Fira Code', monospace;">STABILITY_REPORT // XP</h3>
+        <p style="margin-bottom: 8px;"><b>• Интерфейс Luna:</b> Яркий, дружелюбный дизайн, сменивший классический серый индустрионализм.</p>
+        <p style="margin-bottom: 8px;"><b>• Защита процессов:</b> Падение одного зависшего приложения (например, IE) больше не приводило к краху всей операционной системы.</p>
+        <p><b>• Service Pack 2 (2004):</b> Масштабный апдейт безопасности, который внедрил встроенный брандмауэр (Firewall) и заблокировал бушующие сетевые черви.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- СЛАЙД 7: Кризис Vista и Триумф Windows 7 -->
+  <section class="slide">
+    <div class="stag">
+      <span class="code-tag">2006 — 2009 // EVOLUTION_CYCLE</span>
+      <h2>Аэро-эстетика и Работа над Ошибками</h2>
+      <p class="desc-text" style="margin-bottom: 24px;">История Windows циклична: за революционной, но сырой системой всегда следует выверенная оптимизация.</p>
+      <div class="stack-list">
+        <div class="stack-item">
+          <div class="num">VISTA (2006)</div>
+          <div><b>Архитектурный провал:</b> Слишком тяжелый стек стеклянного интерфейса Aero, агрессивный контроль учетных записей (UAC) и катастрофическая нехватка драйверов на релизе уничтожили репутацию системы.</div>
+        </div>
+        <div class="stack-item">
+          <div class="num">WIN 7 (2009)</div>
+          <div><b>Архитектурное спасение:</b> Ядро Vista полностью пересобрали, снизив потребление RAM и нагрузку на жесткий диск. Появилась удобная панель задач с закреплением окон, поддержка мультитач и идеальная стабильность. Система повторила успех XP.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- СЛАЙД 8: Эпоха Плитки: От Metro до Windows 10/11 -->
+  <section class="slide">
+    <div class="win-grid">
+      <div class="stag">
+        <span class="code-tag">2012 — 2021 // HYBRID_UI</span>
+        <h2>Эксперименты с Плиткой</h2>
+        <p class="desc-text">Попытка Microsoft угнаться за мобильным рынком привела к радикальной смене концепции. В Windows 8 классический интерфейс жестко заменили полноэкранной плиточной сеткой <b>Metro (Modern UI)</b>, что вызвало ярость пользователей ПК. Дальнейшие годы ушли на поиск баланса.</p>
+      </div>
+      <div class="metro-tiles stag">
+        <div class="tile">
+          <h3>Windows 8 (2012)</h3>
+          <p>Уничтожение кнопки «Пуск». Интерфейс оптимизирован под сенсорные планшеты, полностью игнорируя удобство работы мышью.</p>
+        </div>
+        <div class="tile">
+          <h3>Windows 10 (2015)</h3>
+          <p>Возвращение «Пуска» в гибридном виде. Концепция «ОС как сервис» — регулярные полугодовые обновления вместо выпуска новых версий.</p>
+        </div>
+        <div class="tile blue-focus" style="grid-column: span 2;">
+          <h3>Windows 11 (2021)</h3>
+          <p>Глубокое обновление Fluent Design: скругленные углы, меню по центру, строгие требования к чипу безопасности TPM 2.0 и внедрение подсистемы WSA для нативного запуска Android-приложений.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- СЛАЙД 9: Системный Мониторинг популярности (Гистограмма) -->
+  <section class="slide">
+    <div class="stag">
+      <span class="code-tag">ANALYTICS // OS_MARKET_SHARE</span>
+      <h2>Глобальный Индекс Популярности</h2>
+      <p class="desc-text">Инженерная статистика пиковой доли рынка среди всех персональных компьютеров мира по историческим эпохам.</p>
+      
+      <!-- Жесткие брутальные колонки графиков -->
+      <div class="perf-grid" style="margin-top: 40px;">
+        <div class="perf-column" style="--val: 12;"><span class="label">Win 3.11</span></div>
+        <div class="perf-column" style="--val: 65;"><span class="label">Windows 95</span></div>
+        <div class="perf-column" style="--val: 82;"><span class="label">Windows XP</span></div>
+        <div class="perf-column" style="--val: 78;"><span class="label">Windows 7</span></div>
+        <div class="perf-column" style="--val: 18;"><span class="label">Win Vista / 8</span></div>
+        <div class="perf-column" style="--val: 74;"><span class="label">Windows 10</span></div>
+        <div class="perf-column" style="--val: 45;"><span class="label">Windows 11/12</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- СЛАЙД 10: Будущее (Windows 12 и Облачные Ядра) -->
+  <section class="slide">
+    <div class="win-grid">
+      <div class="stag">
+        <span class="code-tag">2026+ // NEXT_GEN_PLATFORM</span>
+        <h2>Windows 12 & Облачное будущее</h2>
+        <p class="desc-text">С развитием экосистемы <b>Copilot+ PC</b> и современных модульных ядер Windows окончательно уходит от концепции локального монолита. Архитектура пересобрана под тотальную изоляцию процессов и гибридные нейросети.</p>
+      </div>
+      <div class="panel stag">
+        <div class="stack-list">
+          <div style="margin-bottom: 12px;">
+            <h4 style="color: var(--sys-green); font-family: monospace;">[ Модульность CoreOS ]</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted);">Разделение ОС на изолированные системные разделы (State Separation). Вирусы или сбойные драйверы физически не могут повредить защищенное ядро.</p>
+          </div>
+          <div style="margin-bottom: 12px;">
+            <h4 style="color: var(--win-blue); font-family: monospace;">[ NPU-First Архитектура ]</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted);">Интерфейс динамически компилируется под задачи пользователя. Локальные малые языковые модели (SLM) управляют автоматизацией рутины на аппаратном уровне.</p>
+          </div>
+          <div>
+            <h4 style="color: #fff; font-family: monospace;">[ Полная интеграция с Cloud ]</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted);">Плавный переход на облачные рабочие столы Windows 365 для потребительского рынка. Мощность вычислений больше не привязана к железу вашего ноутбука.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Промышленный пульт управления (Digital Brutalism) -->
+  <nav class="industrial-nav">
+    <button id="prev">PREV_</button>
+    <div class="indicator" id="cnt">SYS_PAGE // 01 / 10</div>
+    <button id="next">NEXT_</button>
+  </nav>
+
+  <!-- Управляющий Glitch-скрипт -->
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    const cnt = document.getElementById('cnt');
+    const prog = document.getElementById('prog');
+    const glitch = document.querySelector('.glitch-overlay');
+    let currentIdx = 0;
+
+    // Рассчитываем CSS задержки для поочередного вылета (.stag)
+    slides.forEach(slide => {
+      const staggeredItems = slide.querySelectorAll('.stag > *, .stack-item, .tile, .perf-column');
+      staggeredItems.forEach((item, index) => {
+        item.style.setProperty('--i', index);
+        // Задаем высоту колонок для анимации графиков из переменных стиля
+        if (item.classList.contains('perf-column')) {
+          item.style.setProperty('--val', item.style.getPropertyValue('--val') || '10');
+        }
+      });
+    });
+
+    function changeSlide(nextIdx) {
+      if (nextIdx < 0 || nextIdx >= slides.length || nextIdx === currentIdx) return;
+      
+      // Активируем жесткий цифровой Glitch-эффект перезагрузки
+      glitch.classList.add('active');
+      
+      // Смена слайдов происходит мгновенно на пике глитча
+      setTimeout(() => {
+        slides[currentIdx].classList.remove('on');
+        currentIdx = nextIdx;
+        slides[currentIdx].classList.add('on');
+        
+        // Корректируем счетчик в формате системного терминала
+        const pageNum = String(currentIdx + 1).padStart(2, '0');
+        cnt.textContent = `SYS_PAGE // ${pageNum} / 10`;
+        
+        // Обновляем жесткий прогресс-бар
+        prog.style.width = `${((currentIdx + 1) / slides.length) * 100}%`;
+        
+        // Сброс скролла
+        slides[currentIdx].scrollTop = 0;
+      }, 200);
+
+      glitch.addEventListener('animationend', () => {
+        glitch.classList.remove('active');
+      }, { once: true });
+    }
+
+    document.getElementById('next').addEventListener('click', () => changeSlide(currentIdx + 1));
+    document.getElementById('prev').addEventListener('click', () => changeSlide(currentIdx - 1));
+
+    // Управление с клавиатуры
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ') {
+        e.preventDefault();
+        changeSlide(currentIdx + 1);
+      } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        changeSlide(currentIdx - 1);
+      }
+    });
+
+    // Инициализация прогресс-бара
+    prog.style.width = `${(1 / slides.length) * 100}%`;
+  </script>
+</body>
+</html>
